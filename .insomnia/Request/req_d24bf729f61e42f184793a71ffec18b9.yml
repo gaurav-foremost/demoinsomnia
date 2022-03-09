@@ -1,23 +1,25 @@
 _id: req_d24bf729f61e42f184793a71ffec18b9
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825234104
+modified: 1646825539947
 created: 1646825234104
 url: "{{url}}/register"
 name: register
 description: ""
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: email
       disabled: false
       value: gaurav77@yopmail.com
+      id: pair_5eb1a4076b4a4a198c208e4eefdb6b85
     - type: text
       name: password
       disabled: false
       value: "123456"
-  mimeType: multipart/form-data
+      id: pair_8cf7648e890a499ca9436de0724b6768
 parameters: []
 headers: []
 authentication: {}

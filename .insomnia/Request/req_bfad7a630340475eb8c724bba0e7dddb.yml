@@ -1,7 +1,7 @@
 _id: req_bfad7a630340475eb8c724bba0e7dddb
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233834
+modified: 1646825883801
 created: 1646825233834
 url: "{{url}}/getAboutCarrer"
 name: getAboutCarrer
@@ -13,7 +13,8 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: "{{token}}"
+  token: Bearer
+    eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3Nwb3RiZWVcL2FwcFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDY4MTcwMzcsImV4cCI6MTY3ODM1MzAzNywibmJmIjoxNjQ2ODE3MDM3LCJqdGkiOiI1TzNmWnRGdDA4d3JZaVhqIiwic3ViIjo0NSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.30CPWVsCj2muUbhtXpm4RVugc2hJuv3vonIkdMzG2UE
   prefix: ""
 metaSortKey: -1646825233834
 isPrivate: false
