@@ -1,0 +1,35 @@
+_id: req_ab830b3d67344773a661617f9ad6a5d6
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233519
+created: 1646825233519
+url: "{{url}}/updateProfileBystep"
+name: updateProfileBystep
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: flag
+      disabled: false
+      value: work
+    - type: text
+      name: profession_id
+      disabled: false
+      value: "1"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

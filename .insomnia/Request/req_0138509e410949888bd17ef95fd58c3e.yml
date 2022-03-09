@@ -1,0 +1,25 @@
+_id: req_0138509e410949888bd17ef95fd58c3e
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233543
+created: 1646825233543
+url: "{{url}}/getFilter"
+name: getFilter
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233543
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

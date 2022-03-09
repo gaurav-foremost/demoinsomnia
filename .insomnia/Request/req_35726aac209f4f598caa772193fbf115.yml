@@ -1,0 +1,35 @@
+_id: req_35726aac209f4f598caa772193fbf115
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233507
+created: 1646825233507
+url: "{{url}}/chnagemailMachOtp"
+name: chnagemailMachOtp
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: gaurav111@yopmail.com
+    - type: text
+      name: otp
+      disabled: false
+      value: "123456"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233507
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

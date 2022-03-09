@@ -1,0 +1,31 @@
+_id: req_21cf1aff247a46dc9183c32bdb89009a
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233500
+created: 1646825233500
+url: "{{url}}/checkphoneExists"
+name: checkphoneExists
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: country_code
+      disabled: false
+      value: "+91"
+    - type: text
+      name: phone
+      disabled: false
+      value: "8200752142"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646825233500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

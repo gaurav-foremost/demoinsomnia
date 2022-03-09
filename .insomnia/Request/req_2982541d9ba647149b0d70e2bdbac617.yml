@@ -1,0 +1,24 @@
+_id: req_2982541d9ba647149b0d70e2bdbac617
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233479
+created: 1646825233479
+url: "{{url}}/allCheckInSpotbee?activity_id=0"
+name: allCheckInSpotbee
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvc3BvdGJlZWFwcC5jb21cL2FwcFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDQ5MDYzNDIsImV4cCI6MTY3NjQ0MjM0MiwibmJmIjoxNjQ0OTA2MzQyLCJqdGkiOiJOUkxhNkthZ2hpUndtSlRDIiwic3ViIjo5MywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.VGEA-tWNVX1gdfITjIMOjxy5-NBbTtkwvVoUA-ltNvg
+authentication: {}
+metaSortKey: -1646825233479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

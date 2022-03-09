@@ -1,0 +1,25 @@
+_id: req_df1ddf35ddff43b1b2a72fcde0f3e63a
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233736
+created: 1646825233736
+url: "{{url}}/findProfilesActivity?profile_for=like_send"
+name: findProfilesActivity
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

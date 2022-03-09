@@ -1,0 +1,55 @@
+_id: req_0d84ba0bd9cf48469c8f5c1c203b95e7
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233981
+created: 1646825233981
+url: "{{url}}/updateLocation"
+name: updateLocation
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: city
+      disabled: false
+      value: Ahemdabad
+    - type: text
+      name: state
+      disabled: false
+      value: Gujrat
+    - type: text
+      name: cur_latitude
+      disabled: false
+      value: "22.0000"
+    - type: text
+      name: cur_longitude
+      disabled: false
+      value: "72.02025"
+    - type: text
+      name: zip_code
+      disabled: false
+      value: "264008"
+    - type: text
+      name: cur_country
+      disabled: false
+      value: India
+    - type: text
+      name: street_name
+      disabled: false
+      value: sdkn sdnsmd sd
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

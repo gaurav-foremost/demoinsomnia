@@ -1,0 +1,72 @@
+_id: req_f793829824204bffa843ae83a9a198ea
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233672
+created: 1646825233672
+url: "{{url}}/checkInCheckOut"
+name: checkInCheckOut
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: latitude
+      disabled: false
+      value: "22.978845"
+    - type: text
+      name: longitude
+      disabled: false
+      value: "72.49037400000002"
+    - type: text
+      name: checkin_address
+      disabled: false
+      value: opposite Shukh Sararhad, I, Manibhai Brothers Estate, Sarkhej Sanand
+        Cross Road, Sarkhej, Sarkhej, opposite Shukh Sararhad, Ahmedabad
+    - type: text
+      name: flag
+      disabled: false
+      value: checkout
+    - type: text
+      name: check_in_place_id
+      disabled: false
+      value: ChIJmxKE-5OaXjkRTUcOY5uo3cU
+    - type: text
+      name: check_in_title
+      disabled: false
+      value: Cipla Limited
+    - type: text
+      name: type[]
+      disabled: false
+      value: health
+    - type: text
+      name: type[]
+      disabled: false
+      value: point_of_interest
+    - type: text
+      name: check_out_after
+      disabled: false
+      value: 3 Hours
+    - type: text
+      name: check_in_status
+      disabled: false
+      value: Attending Event
+    - type: text
+      name: timezone
+      disabled: false
+      value: Asia/Kolkata
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233672
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

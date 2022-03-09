@@ -1,0 +1,31 @@
+_id: req_5716c551f0244f84a9cf4ceb31b585c0
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233784
+created: 1646825233784
+url: "{{url}}/findProfilesWithFilter?profile_for=new"
+name: findProfilesWithFilter
+description: ""
+method: GET
+body:
+  params:
+    - type: text
+      name: ""
+      disabled: false
+      value: top_picked
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233784
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,87 @@
+_id: req_eec417d911b246419fd973f5a22ceafe
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233485
+created: 1646825233485
+url: "{{url}}/checkInCheckOutSpotbee"
+name: checkInCheckOutSpotbee
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: latitude
+      disabled: false
+      value: "50.470326"
+    - type: text
+      name: longitude
+      disabled: false
+      value: "-104.605290"
+    - type: text
+      name: checkin_address
+      disabled: false
+      value: 524 Osler St, Regina, SK S4R 1W1, Canada
+    - type: text
+      name: flag
+      disabled: false
+      value: checkin
+    - type: text
+      name: check_in_place_id
+      disabled: false
+      value: ChIJOUPnsf8eHFMRK8N8XsScIw0
+    - type: text
+      name: check_in_title
+      disabled: true
+      value: Cipla Limited
+    - type: text
+      name: type[]
+      disabled: true
+      value: health
+    - type: text
+      name: type[]
+      disabled: true
+      value: point_of_interest
+    - type: text
+      name: check_out_after
+      disabled: true
+      value: 168 Hours
+    - type: text
+      name: check_in_status
+      disabled: true
+      value: Attending Event
+    - type: text
+      name: timezone
+      disabled: false
+      value: America/Regina
+    - type: text
+      name: available_for
+      disabled: false
+      value: Instantly
+    - type: text
+      name: google_place_icon
+      disabled: true
+      value: https://cdn.urlencoder.org/assets/images/url-fb.png
+    - type: text
+      name: checkin_goal
+      disabled: false
+      value: Friendship
+    - type: text
+      name: activity_id
+      disabled: false
+      value: 1,3,10
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233485
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

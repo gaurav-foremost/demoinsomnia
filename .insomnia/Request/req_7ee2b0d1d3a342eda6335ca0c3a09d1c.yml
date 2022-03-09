@@ -1,0 +1,25 @@
+_id: req_7ee2b0d1d3a342eda6335ca0c3a09d1c
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233821
+created: 1646825233821
+url: "{{url}}/findProfiles?profile_for=top_picked"
+name: findProfiles
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233821
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

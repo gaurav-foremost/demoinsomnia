@@ -1,0 +1,35 @@
+_id: req_cbcf72c52ad04019be8bef069aab1ff2
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233498
+created: 1646825233498
+url: "{{url}}/updatePassword"
+name: updatePassword
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: new_password
+      disabled: false
+      value: "123456"
+    - type: text
+      name: country_code
+      disabled: false
+      value: "+91"
+    - type: text
+      name: phone
+      disabled: false
+      value: "8200752142"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646825233498
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

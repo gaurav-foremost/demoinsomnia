@@ -1,0 +1,38 @@
+_id: req_a25303ded8fa4a93bed7a5291a75f4e4
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233532
+created: 1646825233532
+url: "{{url}}/changePassword"
+name: changePassword
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: old_password
+      disabled: true
+      value: "1234567"
+    - type: text
+      name: new_password
+      disabled: false
+      value: "123456"
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbG9jYWxob3N0XC9sYXVuY2hwaW5lXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTYzOTAyNjY0NiwiZXhwIjoxNjQwMDYzNDQ2LCJuYmYiOjE2MzkwMjY2NDYsImp0aSI6IkhUTlMwTkxibU9SdHdrcFAiLCJzdWIiOjEyLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.87al7-J0pOLq56Ul1WnoNJOGGmxpIP6IR7UauLlINMs
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233532
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_db347d5efef04449a54e0587295d7a00
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233510
+created: 1646825233510
+url: "{{url}}/updateBio"
+name: updateBio
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: bio
+      disabled: false
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a magna
+        a nunc consectetur iaculis ac vitae urna. Donec porttitor rhoncus turpis
+        eu eleifend. Curabitur vulputate mattis enim eget elementum. Etiam
+        tristique cursus venenatis. Sed ante arcu, blandit quis mi in, luctus
+        accumsan nisl. Proin porta ut mi ut rutrum. Nunc eu enim scelerisque,
+        elementum eros sit amet, porttitor purus. Quisque non elementum tellus.
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233510
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

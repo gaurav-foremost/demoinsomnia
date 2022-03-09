@@ -1,0 +1,31 @@
+_id: req_618611b485564edc9795344c3b90b0a7
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233528
+created: 1646825233528
+url: "{{url}}/otpMatch"
+name: otpMatch
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: gaurav77@yopmail.com
+    - type: text
+      name: otp
+      disabled: false
+      value: "429186"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646825233528
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

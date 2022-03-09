@@ -1,0 +1,35 @@
+_id: req_390bc8e58d9a44cf8544d6e0631290e7
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233688
+created: 1646825233688
+url: "{{url}}/profileLikeDisLike"
+name: profileLikeDisLike
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: view_user_id
+      disabled: false
+      value: "49"
+    - type: text
+      name: flag
+      disabled: false
+      value: hidden
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

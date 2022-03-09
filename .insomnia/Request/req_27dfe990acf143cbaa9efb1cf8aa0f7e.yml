@@ -1,0 +1,35 @@
+_id: req_27dfe990acf143cbaa9efb1cf8aa0f7e
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825234054
+created: 1646825234054
+url: "{{url}}/updatePhone"
+name: updatePhone
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: country_code
+      disabled: false
+      value: "+91"
+    - type: text
+      name: phone
+      disabled: false
+      value: "4404409096"
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825234054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

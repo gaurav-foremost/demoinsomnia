@@ -1,0 +1,43 @@
+_id: req_f0ac1b1f6322441ab3e4f635624df2ef
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233465
+created: 1646825233465
+url: "{{url}}/sendInvitation"
+name: sendInvitation
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: receiver_id
+      disabled: false
+      value: "47"
+    - type: text
+      name: activity_id
+      disabled: false
+      value: "1"
+    - type: text
+      name: message
+      disabled: false
+      value: Hii
+    - type: text
+      name: msg_date
+      disabled: false
+      value: 2022-02-28 04:23:43
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233465
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_87ae046ac75b43ec81273315ad4d8766
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825234007
+created: 1646825234007
+url: "{{url}}/updateProfile"
+name: updateProfile
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: first_name
+      disabled: false
+      value: Gaurav
+    - type: text
+      name: last_name
+      disabled: false
+      value: Goswami
+    - type: text
+      name: dob
+      disabled: false
+      value: 1990-01-05
+    - type: text
+      name: gender
+      disabled: false
+      value: Male
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825234007
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_2c75b51d05cc4f3c82ce0cca7c67fa5c
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233545
+created: 1646825233545
+url: "{{url}}/getUserMessages"
+name: getUserMessages
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: relation_id
+      disabled: false
+      value: "35"
+    - type: text
+      name: receiver_id
+      disabled: true
+      value: "62"
+    - type: text
+      name: type
+      disabled: true
+      value: user
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233545
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_b6b508dfbd6c47f5a63bdd430982a9f1
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233491
+created: 1646825233491
+url: "{{url}}/uplodePhotoesnew"
+name: uplodePhotoesnew
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/16204c24ce4575_6204c24ce4577.jpg
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233491
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

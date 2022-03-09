@@ -1,0 +1,31 @@
+_id: req_7e78d336821e47c4b191c8da2d65f925
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233508
+created: 1646825233508
+url: "{{url}}/emailExistChnageEmail"
+name: emailExistChnageEmail
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: gaurav111@yopmail.com
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

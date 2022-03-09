@@ -1,0 +1,31 @@
+_id: req_c0ad7616ec624a99be0f88f5ae0cbb9d
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825234021
+created: 1646825234021
+url: "{{url}}/updateProfilePic"
+name: updateProfilePic
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: image
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/good-morning-sunshine-images.jpg
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825234021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

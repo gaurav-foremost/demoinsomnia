@@ -1,0 +1,99 @@
+_id: req_78e411c8c2a64af69b5f3302a76945dd
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233919
+created: 1646825233919
+url: "{{url}}/updateQuestionAnswer"
+name: updateQuestionAnswer
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: que_no
+      disabled: true
+      value: "1"
+    - type: text
+      name: question
+      disabled: true
+      value: I am Looking For
+    - type: text
+      name: answer
+      disabled: true
+      value: Friendship
+    - type: text
+      name: que_no
+      disabled: true
+      value: "2"
+    - type: text
+      name: question
+      disabled: true
+      value: Selct  your ethencity
+    - type: text
+      name: answer
+      disabled: true
+      value: indian
+    - type: text
+      name: que_no
+      disabled: true
+      value: "3"
+    - type: text
+      name: question
+      disabled: true
+      value: What language do you speck ?
+    - type: text
+      name: answer
+      disabled: true
+      value: Gujrati, English, Hindi
+    - type: text
+      name: que_no
+      disabled: true
+      value: "4"
+    - type: text
+      name: question
+      disabled: true
+      value: How  Does Your Life Style ?
+    - type: text
+      name: answer
+      disabled: true
+      value: "Simple "
+    - type: text
+      name: que_no
+      disabled: true
+      value: "5"
+    - type: text
+      name: question
+      disabled: true
+      value: What are  Think  you dont like
+    - type: text
+      name: answer
+      disabled: true
+      value: Cricket Play
+    - type: text
+      name: que_no
+      disabled: false
+      value: "6"
+    - type: text
+      name: question
+      disabled: false
+      value: we will get along well if..
+    - type: text
+      name: answer
+      disabled: false
+      value: "yes "
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233919
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

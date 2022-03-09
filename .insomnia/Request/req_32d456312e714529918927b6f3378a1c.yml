@@ -1,0 +1,35 @@
+_id: req_32d456312e714529918927b6f3378a1c
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233468
+created: 1646825233468
+url: "{{url}}/acceptApprovedChat"
+name: acceptApprovedChat
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: receiver_id
+      disabled: false
+      value: "43"
+    - type: text
+      name: flag
+      disabled: false
+      value: Hidden
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

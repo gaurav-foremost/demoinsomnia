@@ -1,0 +1,27 @@
+_id: req_563529d3334c4066bfb9fb1c8f65bc02
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233526
+created: 1646825233526
+url: "{{url}}/emailExists"
+name: emailExists
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: gaurav77@yopmail.com
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646825233526
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

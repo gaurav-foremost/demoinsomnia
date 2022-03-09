@@ -1,0 +1,48 @@
+_id: req_0d55157c3ba94c349110658ebbcb5202
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233472
+created: 1646825233472
+url: "{{url}}/uplodePhotoesNoDublicate"
+name: uplodePhotoesNoDublicate
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: []
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/rashmika-mandanna-1076783-28-12-2016-12-20-39
+        - Copy.jpg
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/rashmika-mandanna-1076783-28-12-2016-12-20-39.jpg
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/g3.jpg
+    - type: file
+      name: images[]
+      disabled: false
+      fileName: /C:/Users/Gaurav/Desktop/g3.jpg
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233472
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

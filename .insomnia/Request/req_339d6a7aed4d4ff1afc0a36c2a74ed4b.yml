@@ -1,0 +1,55 @@
+_id: req_339d6a7aed4d4ff1afc0a36c2a74ed4b
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233770
+created: 1646825233770
+url: "{{url}}/updateFilter"
+name: updateFilter
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: is_reset
+      disabled: false
+      value: "1"
+    - type: text
+      name: interested_in
+      disabled: false
+      value: men
+    - type: text
+      name: age
+      disabled: false
+      value: 15-45
+    - type: text
+      name: distance
+      disabled: false
+      value: "150"
+    - type: text
+      name: ethnicity
+      disabled: false
+      value: ss
+    - type: text
+      name: language
+      disabled: false
+      value: gujrati
+    - type: text
+      name: looking_for
+      disabled: false
+      value: Friendship
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

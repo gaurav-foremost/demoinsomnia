@@ -1,0 +1,31 @@
+_id: req_9f8429623d61489e8a7cbcac9013e3cc
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646825233563
+created: 1646825233563
+url: "{{url}}/emailVerify"
+name: emailVerify
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: yami@yopmail.com
+  mimeType: multipart/form-data
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{token}}"
+  prefix: ""
+metaSortKey: -1646825233563
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
