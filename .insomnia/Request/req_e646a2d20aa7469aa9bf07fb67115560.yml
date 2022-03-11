@@ -1,7 +1,7 @@
 _id: req_e646a2d20aa7469aa9bf07fb67115560
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825675218
+modified: 1646885298694
 created: 1646825234101
 url: "{{url}}/login"
 name: login
@@ -13,12 +13,12 @@ body:
     - type: text
       name: email
       disabled: false
-      value: parthesh@foremostdigital.com
+      value: allu@yopmail.com
       id: pair_3d4a1ac7625447f8b5de3c12b5edc836
     - type: text
       name: password
       disabled: false
-      value: Zw@492016
+      value: "123456"
       id: pair_a1c5fde1795c4083bd8146e141945fc7
 parameters: []
 headers: []

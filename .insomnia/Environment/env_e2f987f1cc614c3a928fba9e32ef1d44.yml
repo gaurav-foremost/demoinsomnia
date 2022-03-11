@@ -1,14 +1,16 @@
 _id: env_e2f987f1cc614c3a928fba9e32ef1d44
 type: Environment
 parentId: env_133896f2d0ef10636c5639c25c15a1c36c57de2b
-modified: 1646826091113
+modified: 1646972989556
 created: 1646825444192
 name: Spotbee
 data:
-  url: https://spotbeeapp.com/app/api/v1
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvc3BvdGJlZWFwcC5jb21cL2FwcFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDYyOTc3MjQsImV4cCI6MTY3NzgzMzcyNCwibmJmIjoxNjQ2Mjk3NzI0LCJqdGkiOiJNMmZqZEpoZ2FxVkxSeEtCIiwic3ViIjo0NywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.czmTLF8BuOU4AMI-czZxkVM8od8Ri7NacwLSukD0v1o
+  url1: https://spotbeeapp.com/app/api/v1
+  url: http://localhost/spotbee/app/api/v1
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvc3BvdGJlZWFwcC5jb21cL2FwcFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDY4ODUwNjQsImV4cCI6MTY3ODQyMTA2NCwibmJmIjoxNjQ2ODg1MDY0LCJqdGkiOiJvbDJESlBocGxCVVhPcFpRIiwic3ViIjo0NywicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.6lBsWxDy3-Wd38QjlfVCl9B1dD7CCGL06mGTGS4O8PU
 dataPropertyOrder:
   "&":
+    - url1
     - url
     - token
 color: "#0aebd1"

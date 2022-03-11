@@ -1,30 +1,28 @@
-_id: req_b3ef0c3ed85a445db379fa6da16fb771
+_id: req_0a95d964b6c841f7b493aa5674c0d6d8
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646976228745
-created: 1646825233489
-url: "{{url}}/getActivity"
-name: getActivity
+modified: 1646975344663
+created: 1646974860141
+url: "{{ _.url }}/updateMyFavoriteTopics"
+name: updateMyFavoriteTopics
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/x-www-form-urlencoded
   params:
-    - id: pair_17b85e8fd97b44399bdd446fce5d937a
-      name: ""
-      value: ""
+    - id: pair_b0008f1adbee48df8edd909fc368501e
+      name: topic_ids
+      value: 2,3
       description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/x-www-form-urlencoded
-    id: pair_dbf921a34efb41a9a5f31166c3e8482f
+    id: pair_b9a7def1955842bd8b381dee61f226ac
 authentication:
   type: bearer
-  disabled: false
-  token: "{{token}}"
-  prefix: ""
-metaSortKey: -1646825233489
+  token: "{{ _.token }}"
+metaSortKey: -1646974860142
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

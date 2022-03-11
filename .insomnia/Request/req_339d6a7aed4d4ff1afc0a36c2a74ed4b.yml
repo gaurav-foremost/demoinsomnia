@@ -1,43 +1,54 @@
 _id: req_339d6a7aed4d4ff1afc0a36c2a74ed4b
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233770
+modified: 1646972695636
 created: 1646825233770
 url: "{{url}}/updateFilter"
 name: updateFilter
 description: ""
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: is_reset
       disabled: false
       value: "1"
-    - type: text
-      name: interested_in
-      disabled: false
-      value: men
-    - type: text
-      name: age
-      disabled: false
-      value: 15-45
-    - type: text
-      name: distance
-      disabled: false
-      value: "150"
+      id: pair_f15485996b36410d8c3bdb30fbcbbbe5
     - type: text
       name: ethnicity
       disabled: false
-      value: ss
+      value: South Asian/Indian
+      id: pair_9ff2be662a9f4139bc7a8baf3c76af25
     - type: text
       name: language
       disabled: false
-      value: gujrati
+      value: Gujarati
+      id: pair_85aaabcf2785495897ea006f728878d0
     - type: text
-      name: looking_for
+      name: born_and_rise
       disabled: false
-      value: Friendship
-  mimeType: multipart/form-data
+      value: ""
+      id: pair_a51836fde6eb4d41905431e53aff19f5
+    - type: text
+      name: marital_status
+      disabled: false
+      value: Single/Never Married
+      id: pair_947c165319c74809985209e6a66c49fc
+    - type: text
+      name: sexual_orientation
+      disabled: false
+      value: Straight
+      id: pair_7c2c7ff0794d4c55b973ae2655ce54d5
+    - type: text
+      name: children
+      disabled: false
+      value: No, I don't have children
+      id: pair_684e256d1d12431f9da4875d7d13a2df
+    - id: pair_cbef2de5190f42cab036ac3d7c4402fb
+      name: who_can_see_you
+      value: men
+      description: ""
 parameters: []
 headers: []
 authentication:

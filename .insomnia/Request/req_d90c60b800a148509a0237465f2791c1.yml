@@ -1,0 +1,32 @@
+_id: req_d90c60b800a148509a0237465f2791c1
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1646973002211
+created: 1646884988666
+url: "{{ _.url }}/updateWhoCanSeeYou"
+name: updateWhoCanSeeYou
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_dd7efe25ec7f43eeb5522f403b1d7706
+      name: who_can_see_you
+      value: women
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_bf8185db031a44438413d04e969b0776
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646884988666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
