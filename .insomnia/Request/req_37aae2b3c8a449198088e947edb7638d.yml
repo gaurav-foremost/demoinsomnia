@@ -1,10 +1,10 @@
-_id: req_c122896722184c879db2cef11137b4a3
+_id: req_37aae2b3c8a449198088e947edb7638d
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646990789014
-created: 1646825233723
-url: "{{url}}/viewProfile?id=47"
-name: viewProfile
+modified: 1646990802186
+created: 1646989907465
+url: "{{ _.url }}/viewAllSpotbee"
+name: viewAllSpotbee
 description: ""
 method: GET
 body: {}
@@ -12,10 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  disabled: false
-  token: "{{token}}"
-  prefix: ""
-metaSortKey: -1646825233723
+  token: "{{ _.token }}"
+metaSortKey: -1646989907465
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
