@@ -1,10 +1,10 @@
-_id: req_6758db02075c4a2492096dd038282cfd
+_id: req_37a49b11c9b642cdaff3fac6e0caf74e
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1647248961605
-created: 1646973481224
-url: "{{ _.url }}/getFavoriteTopics?search=da"
-name: getFavoriteTopics
+modified: 1647249061534
+created: 1647247353618
+url: "{{ _.url }}/getProfile"
+name: getProfile
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1646973481224
+metaSortKey: -1647247353618
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

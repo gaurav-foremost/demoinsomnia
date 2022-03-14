@@ -1,75 +1,90 @@
 _id: req_eec417d911b246419fd973f5a22ceafe
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233485
+modified: 1647249090976
 created: 1646825233485
 url: "{{url}}/checkInCheckOutSpotbee"
 name: checkInCheckOutSpotbee
 description: ""
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: latitude
       disabled: false
       value: "50.470326"
+      id: pair_ec7a53277a1946a6b3601c08c9da6bdd
     - type: text
       name: longitude
       disabled: false
       value: "-104.605290"
+      id: pair_b1e17b09642042a78c979bf6801a8953
     - type: text
       name: checkin_address
       disabled: false
       value: 524 Osler St, Regina, SK S4R 1W1, Canada
+      id: pair_6256e1c3562446cdb421c1609feae050
     - type: text
       name: flag
       disabled: false
       value: checkin
+      id: pair_d84e50d194164a7d8a55c3787e8e6c9e
     - type: text
       name: check_in_place_id
       disabled: false
       value: ChIJOUPnsf8eHFMRK8N8XsScIw0
+      id: pair_f088c5186ee34c12b3cee2ad56b88ebc
     - type: text
       name: check_in_title
       disabled: true
       value: Cipla Limited
+      id: pair_e8b91d97285e483cb40567bdbece7ff8
     - type: text
       name: type[]
       disabled: true
       value: health
+      id: pair_058374682d0a4863a261af1ba9c2dfce
     - type: text
       name: type[]
       disabled: true
       value: point_of_interest
+      id: pair_3076737b9d824d188be5a15e771db5ce
     - type: text
       name: check_out_after
       disabled: true
       value: 168 Hours
+      id: pair_d631dfc65ec6471fb013754175d916f4
     - type: text
       name: check_in_status
       disabled: true
       value: Attending Event
+      id: pair_e725f37b409b436eadd9d2a7bbdfff72
     - type: text
       name: timezone
       disabled: false
       value: America/Regina
+      id: pair_26c8cb72b1184df0aee8bb21f6a3a04b
     - type: text
       name: available_for
       disabled: false
       value: Instantly
+      id: pair_f7a0b1f92afe458482d177c8e0861f76
     - type: text
       name: google_place_icon
       disabled: true
       value: https://cdn.urlencoder.org/assets/images/url-fb.png
+      id: pair_0083f8017a124456a091c911b45c5890
     - type: text
       name: checkin_goal
       disabled: false
       value: Friendship
+      id: pair_df84238072664240969433148b555bd6
     - type: text
       name: activity_id
       disabled: false
       value: 1,3,10
-  mimeType: multipart/form-data
+      id: pair_088fdac01e414125a705150e73c81ace
 parameters: []
 headers: []
 authentication:
