@@ -1,7 +1,7 @@
 _id: req_e646a2d20aa7469aa9bf07fb67115560
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646885298694
+modified: 1647344930440
 created: 1646825234101
 url: "{{url}}/login"
 name: login
@@ -13,7 +13,7 @@ body:
     - type: text
       name: email
       disabled: false
-      value: allu@yopmail.com
+      value: rashmika@yopmail.com
       id: pair_3d4a1ac7625447f8b5de3c12b5edc836
     - type: text
       name: password

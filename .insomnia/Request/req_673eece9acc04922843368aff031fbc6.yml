@@ -1,10 +1,10 @@
-_id: req_0138509e410949888bd17ef95fd58c3e
+_id: req_673eece9acc04922843368aff031fbc6
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1647323327628
-created: 1646825233543
-url: "{{url}}/getFilter"
-name: getFilter
+modified: 1647423855925
+created: 1647423827036
+url: "{{ _.url }}/getMyConnection"
+name: getMyConnection
 description: ""
 method: GET
 body: {}
@@ -12,10 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  disabled: false
-  token: "{{token}}"
-  prefix: ""
-metaSortKey: -1646825233543
+  token: "{{ _.token }}"
+metaSortKey: -1647423827036
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

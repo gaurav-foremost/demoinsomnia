@@ -1,28 +1,32 @@
-_id: req_0a95d964b6c841f7b493aa5674c0d6d8
+_id: req_4248cf14c45e4f299272bbb95244d95b
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1647414807850
-created: 1646974860141
-url: "{{ _.url }}/updateMyFavoriteTopics"
-name: updateMyFavoriteTopics
+modified: 1647426070116
+created: 1647425952246
+url: "{{ _.url }}/updateFirebaseId"
+name: updateFirebaseId
 description: ""
 method: POST
 body:
   mimeType: application/x-www-form-urlencoded
   params:
-    - id: pair_b0008f1adbee48df8edd909fc368501e
-      name: topic_ids
-      value: 2,3
+    - id: pair_124d1c8f9d244333a394047777735a10
+      name: device_type
+      value: android
+      description: ""
+    - id: pair_b9b585147cd9483a918bd39a6cd92429
+      name: firebase_id
+      value: iasalsmas
       description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/x-www-form-urlencoded
-    id: pair_b9a7def1955842bd8b381dee61f226ac
+    id: pair_d46388a0032c4863a47b55b26415fdc4
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1646974860142
+metaSortKey: -1647425952246
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

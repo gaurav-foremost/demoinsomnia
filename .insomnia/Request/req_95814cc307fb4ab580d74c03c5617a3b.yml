@@ -1,9 +1,9 @@
 _id: req_95814cc307fb4ab580d74c03c5617a3b
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646988695977
+modified: 1647424893112
 created: 1646825233483
-url: "{{url}}/allCheckInSpotbee?activity_id=0"
+url: "{{url}}/allCheckInSpotbee?activity_id=15"
 name: allCheckInSpotbee
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: req_f0ac1b1f6322441ab3e4f635624df2ef
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233465
+modified: 1647414644541
 created: 1646825233465
 url: "{{url}}/sendInvitation"
 name: sendInvitation
@@ -13,18 +13,22 @@ body:
       name: receiver_id
       disabled: false
       value: "47"
+      id: pair_80795a7ea4de439a9132fec8160c1b58
     - type: text
       name: activity_id
       disabled: false
       value: "1"
+      id: pair_5680ea58de344ccfa91fb8a7fdb460dc
     - type: text
       name: message
       disabled: false
       value: Hii
+      id: pair_8551f7f44beb4ecbb64f11e6263fe7a9
     - type: text
       name: msg_date
       disabled: false
       value: 2022-02-28 04:23:43
+      id: pair_0dc18a8acb874ba6ac38c8a39ff997d7
   mimeType: multipart/form-data
 parameters: []
 headers: []
