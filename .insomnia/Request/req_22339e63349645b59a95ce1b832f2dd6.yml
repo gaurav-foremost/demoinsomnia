@@ -1,0 +1,21 @@
+_id: req_22339e63349645b59a95ce1b832f2dd6
+type: Request
+parentId: wrk_3cf46625aa1f4e01987b6445f03a36f3
+modified: 1648115740829
+created: 1648009615574
+url: "{{ _.url1 }}/checkProfile"
+name: checkProfile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648009615574
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

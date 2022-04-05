@@ -1,7 +1,7 @@
 _id: req_698b2db39c6641d18e9cea5a72456e52
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233883
+modified: 1648617440063
 created: 1646825233883
 url: "{{url}}/uplodePhotoes"
 name: uplodePhotoes
@@ -13,6 +13,7 @@ body:
       name: images
       disabled: false
       fileName: /C:/Users/Gaurav/Desktop/images-2.jpeg
+      id: pair_79096703e8e446d986ca0093a690c01c
   mimeType: multipart/form-data
 parameters: []
 headers: []

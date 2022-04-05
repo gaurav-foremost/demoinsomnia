@@ -1,16 +1,18 @@
 _id: env_e2f987f1cc614c3a928fba9e32ef1d44
 type: Environment
 parentId: env_133896f2d0ef10636c5639c25c15a1c36c57de2b
-modified: 1647345029893
+modified: 1649155695334
 created: 1646825444192
 name: Spotbee
 data:
   url1: https://spotbeeapp.com/app/api/v1
-  url: http://localhost/spotbee/app/api/v1
-  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL3Nwb3RiZWVcL2FwcFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDczNDQ5NTksImV4cCI6MTY3ODg4MDk1OSwibmJmIjoxNjQ3MzQ0OTU5LCJqdGkiOiJsSDJVdUZKelFvRVRtU2RxIiwic3ViIjo0NiwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.IessJqCw7z2FyvzxCnNo9dr1Oej5issXYdAIHiOlgk4
+  url2: http://localhost/spotbee/app/api/v1
+  url: https://foremostdigital.dev/spotbee/app/api/v1
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvZm9yZW1vc3RkaWdpdGFsLmRldlwvc3BvdGJlZVwvYXBwXC9hcGlcL3YxXC9sb2dpbiIsImlhdCI6MTY0OTE1NTY4NiwiZXhwIjoxNjgwNjkxNjg2LCJuYmYiOjE2NDkxNTU2ODYsImp0aSI6InVvczJLME1OMEZ0Y2dqU2wiLCJzdWIiOjQ2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.Vz60jUE3dtF4mvYV0G-wpiCHWUwAQxEMtdz1EX6KdQg
 dataPropertyOrder:
   "&":
     - url1
+    - url2
     - url
     - token
 color: "#0aebd1"

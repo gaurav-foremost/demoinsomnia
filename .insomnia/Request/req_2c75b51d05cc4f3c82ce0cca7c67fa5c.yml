@@ -1,27 +1,30 @@
 _id: req_2c75b51d05cc4f3c82ce0cca7c67fa5c
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825233545
+modified: 1649155534571
 created: 1646825233545
-url: "{{url}}/getUserMessages"
+url: "{{ _.url1 }}/getUserMessages"
 name: getUserMessages
 description: ""
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: text
       name: relation_id
       disabled: false
-      value: "35"
+      value: "378"
+      id: pair_bcc647a1fc9b4b0fa89a30ecd218a10a
     - type: text
       name: receiver_id
       disabled: true
       value: "62"
+      id: pair_685bb486f5a0419bb77bf685c2144088
     - type: text
       name: type
       disabled: true
       value: user
-  mimeType: multipart/form-data
+      id: pair_75309b8954284a40802719e679de0e67
 parameters: []
 headers: []
 authentication:

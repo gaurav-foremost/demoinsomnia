@@ -1,9 +1,9 @@
 _id: req_0138509e410949888bd17ef95fd58c3e
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1647323327628
+modified: 1648266295352
 created: 1646825233543
-url: "{{url}}/getFilter"
+url: "{{ _.url1 }}/getFilter"
 name: getFilter
 description: ""
 method: GET

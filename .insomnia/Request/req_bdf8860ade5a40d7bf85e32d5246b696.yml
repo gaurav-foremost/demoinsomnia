@@ -1,28 +1,28 @@
-_id: req_6a645b06313f431bb88d4f6bc0d4b5ff
+_id: req_bdf8860ade5a40d7bf85e32d5246b696
 type: Request
-parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1648124031532
-created: 1646976063327
-url: "{{ _.url }}/updateMyActivity"
-name: updateMyActivity
+parentId: wrk_3cf46625aa1f4e01987b6445f03a36f3
+modified: 1649155754866
+created: 1649155544716
+url: "{{ _.url }}/removeConnection"
+name: removeConnection
 description: ""
 method: POST
 body:
   mimeType: application/x-www-form-urlencoded
   params:
-    - id: pair_b620c1ab9a2d483fa06edf63a16736e9
-      name: activity_ids
-      value: 1,2,3
+    - id: pair_f71b5494e8454d8f92d8e635ec631016
+      name: relation_id
+      value: "1"
       description: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/x-www-form-urlencoded
-    id: pair_d551d114fbdf415ca439edaff687505e
+    id: pair_f773c3c44ac34bd3ad1de9ace34fe6c1
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1646976063327
+metaSortKey: -1649155544716
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

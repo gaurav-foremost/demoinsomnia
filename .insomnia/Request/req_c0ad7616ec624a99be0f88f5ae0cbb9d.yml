@@ -1,19 +1,20 @@
 _id: req_c0ad7616ec624a99be0f88f5ae0cbb9d
 type: Request
 parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1646825234021
+modified: 1648616779217
 created: 1646825234021
 url: "{{url}}/updateProfilePic"
 name: updateProfilePic
 description: ""
 method: POST
 body:
+  mimeType: multipart/form-data
   params:
     - type: file
       name: image
       disabled: false
-      fileName: /C:/Users/Gaurav/Desktop/good-morning-sunshine-images.jpg
-  mimeType: multipart/form-data
+      fileName: C:\Users\Gaurav\Desktop\events2.jpg
+      id: pair_0e961b8dbf124f3d9d32d16b9c8e5a7f
 parameters: []
 headers: []
 authentication:
