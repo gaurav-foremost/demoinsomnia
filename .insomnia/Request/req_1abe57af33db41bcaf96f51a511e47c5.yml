@@ -1,10 +1,10 @@
-_id: req_37aae2b3c8a449198088e947edb7638d
+_id: req_1abe57af33db41bcaf96f51a511e47c5
 type: Request
-parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1649307396090
-created: 1646989907465
-url: "{{ _.url1 }}/viewAllSpotbee"
-name: viewAllSpotbee
+parentId: fld_86513156fc3c441f93999c911aaebd69
+modified: 1649933003852
+created: 1649929172430
+url: "{{ _.url }}/getAllHangoutPlans"
+name: getAllHangoutPlans
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.token }}"
-metaSortKey: -1646989907465
+metaSortKey: -1649929172430
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

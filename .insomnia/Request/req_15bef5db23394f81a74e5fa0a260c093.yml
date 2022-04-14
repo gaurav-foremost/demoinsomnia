@@ -1,0 +1,76 @@
+_id: req_15bef5db23394f81a74e5fa0a260c093
+type: Request
+parentId: fld_86513156fc3c441f93999c911aaebd69
+modified: 1649926890306
+created: 1649916162623
+url: "{{ _.url }}/createHangoutPlan"
+name: createHangoutPlan
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_188f0ece10e94d38a971f95126991eac
+      name: activity_id
+      value: "1"
+      description: ""
+    - id: pair_816d91fb6d9140a7bf307402b615b0ec
+      name: hangout_date
+      value: 2022-04-15
+      description: ""
+    - id: pair_28db326fa42c41f884fce101bf6c4dd2
+      name: from_time
+      value: 08:00 Am
+      description: ""
+    - id: pair_037fc43b124f4c99b0620cbd170b273c
+      name: to_time
+      value: 10:00 Am
+      description: ""
+    - id: pair_a93e2fa75b294192a6f10625ed04a047
+      name: latitude
+      value: "22.9778"
+      description: ""
+    - id: pair_b4cf8c1cb1714a168cf4c5792482a81a
+      name: longitude
+      value: "72.4979"
+      description: ""
+    - id: pair_06296f9b74034aa5a7e05bfc8b91fa8a
+      name: address
+      value: ISKCON Temple Ahmedabad
+      description: ""
+    - id: pair_44c1aede70f2491081c049ffcd6d1da9
+      name: city
+      value: Ahmedabad
+      description: ""
+    - id: pair_748e855664cd40a89c0f108080315ed7
+      name: country
+      value: India
+      description: ""
+    - id: pair_8d7f09aa41e2468c819dad7b952c4955
+      name: time_zone
+      value: Asia/Calcutta
+      description: ""
+    - id: pair_cb0238210c454a098d2eee968ec66d4e
+      name: place_image
+      value: ""
+      description: ""
+      disabled: false
+      type: file
+      multiline: null
+      fileName: C:\Users\Gaurav\Desktop\1-4-2022\16230acc538c43_6230acc538c45.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_afde8710554f446280a63443db29497e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1649916162623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
