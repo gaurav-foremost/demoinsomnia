@@ -1,7 +1,7 @@
 _id: req_15bef5db23394f81a74e5fa0a260c093
 type: Request
 parentId: fld_86513156fc3c441f93999c911aaebd69
-modified: 1649926890306
+modified: 1649998897641
 created: 1649916162623
 url: "{{ _.url }}/createHangoutPlan"
 name: createHangoutPlan
@@ -20,11 +20,15 @@ body:
       description: ""
     - id: pair_28db326fa42c41f884fce101bf6c4dd2
       name: from_time
-      value: 08:00 Am
+      value: 02:00 Am
       description: ""
     - id: pair_037fc43b124f4c99b0620cbd170b273c
       name: to_time
-      value: 10:00 Am
+      value: 04:50 Am
+      description: ""
+    - id: pair_09698eaf3cad45e7802d4167d2083507
+      name: hours
+      value: "2"
       description: ""
     - id: pair_a93e2fa75b294192a6f10625ed04a047
       name: latitude
@@ -52,11 +56,13 @@ body:
       description: ""
     - id: pair_cb0238210c454a098d2eee968ec66d4e
       name: place_image
-      value: ""
+      value: >-
+        
+        https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/-122.08581896686019,37.421187299891955,14.25,0,60/600x600?&access_token=sk.eyJ1IjoicHJhZGlwc2hhcm1hMTQ1IiwiYSI6ImNsMXZ5bHAwaDB2azgzY3FvdXhvdWhjNjEifQ.rClK46scXJhieDScvmOhxg
       description: ""
       disabled: false
-      type: file
-      multiline: null
+      type: text
+      multiline: text/plain
       fileName: C:\Users\Gaurav\Desktop\1-4-2022\16230acc538c43_6230acc538c45.jpg
 parameters: []
 headers:
