@@ -1,0 +1,49 @@
+_id: req_6ce87133b95143fba98a4959734eb77b
+type: Request
+parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
+modified: 1651557483992
+created: 1651552692274
+url: "{{ _.url }}/checkDublicateImage"
+name: checkDublicateImage
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9799bfd8ea5549ca8c9a721fa6b7bd3b
+      name: images[]
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Gaurav\Desktop\allu.jpg
+    - id: pair_cd3a76cbb6964e86b3b63b0e9898eaa1
+      name: images[]
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Gaurav\Desktop\allu.jpg
+    - id: pair_95766cde18234fbb82b50e7092a136bd
+      name: images[]
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\Gaurav\Desktop\allu.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_cfbf2b175f32493ba20ff0ada658413c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651552692274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

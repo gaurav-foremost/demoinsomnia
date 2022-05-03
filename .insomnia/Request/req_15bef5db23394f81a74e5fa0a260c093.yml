@@ -1,9 +1,9 @@
 _id: req_15bef5db23394f81a74e5fa0a260c093
 type: Request
 parentId: fld_86513156fc3c441f93999c911aaebd69
-modified: 1649998897641
+modified: 1650019962766
 created: 1649916162623
-url: "{{ _.url }}/createHangoutPlan"
+url: "{{ _.url2 }}/createHangoutPlan"
 name: createHangoutPlan
 description: ""
 method: POST
@@ -12,7 +12,7 @@ body:
   params:
     - id: pair_188f0ece10e94d38a971f95126991eac
       name: activity_id
-      value: "1"
+      value: "11"
       description: ""
     - id: pair_816d91fb6d9140a7bf307402b615b0ec
       name: hangout_date
@@ -20,11 +20,11 @@ body:
       description: ""
     - id: pair_28db326fa42c41f884fce101bf6c4dd2
       name: from_time
-      value: 02:00 Am
+      value: 2022-04-15 10:00 AM
       description: ""
     - id: pair_037fc43b124f4c99b0620cbd170b273c
       name: to_time
-      value: 04:50 Am
+      value: 2022-04-15 11:59 AM
       description: ""
     - id: pair_09698eaf3cad45e7802d4167d2083507
       name: hours
@@ -32,23 +32,23 @@ body:
       description: ""
     - id: pair_a93e2fa75b294192a6f10625ed04a047
       name: latitude
-      value: "22.9778"
+      value: "37.422005"
       description: ""
     - id: pair_b4cf8c1cb1714a168cf4c5792482a81a
       name: longitude
-      value: "72.4979"
+      value: "-122.084010"
       description: ""
     - id: pair_06296f9b74034aa5a7e05bfc8b91fa8a
       name: address
-      value: ISKCON Temple Ahmedabad
+      value: California, United States
       description: ""
     - id: pair_44c1aede70f2491081c049ffcd6d1da9
       name: city
-      value: Ahmedabad
+      value: Santa Clara County
       description: ""
     - id: pair_748e855664cd40a89c0f108080315ed7
       name: country
-      value: India
+      value: United States
       description: ""
     - id: pair_8d7f09aa41e2468c819dad7b952c4955
       name: time_zone

@@ -1,0 +1,52 @@
+_id: req_831616a94d11498e98b09f7954ac5e24
+type: Request
+parentId: fld_86513156fc3c441f93999c911aaebd69
+modified: 1651550557914
+created: 1651492666388
+url: "{{ _.url2 }}/makePayment"
+name: makePayment
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_3150ff16ac6941eeb07a7771ebd326a9
+      name: card_number
+      value: "4242424242424242"
+      description: ""
+    - id: pair_9d691bc363194923b0fd3c99313e6de0
+      name: exp_month
+      value: "01"
+      description: ""
+    - id: pair_9e05b69bf91c46feab7d804de5f14998
+      name: exp_year
+      value: "2026"
+      description: ""
+    - id: pair_ca7c9b9bddb34f219ce877322d663fd5
+      name: cvv
+      value: "123"
+      description: ""
+    - id: pair_8acdf2f86ebe4d5db965e0245bf97ee8
+      name: credit_plan_id
+      value: "9"
+      description: ""
+    - id: pair_2374dc5ec7224ea4b7bfbf90ad4c4afc
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_511fecb6af9e49bb980fcc5d7b8684c6
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1651492666388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,10 +1,10 @@
-_id: req_0df0500ca40543d08bfe75728ad2e33b
+_id: req_c985a6bfb50d4603b0906c9515072df9
 type: Request
-parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1650262137125
-created: 1646825233497
-url: "{{ _.url2 }}/getAllCheckInPeople"
-name: getAllCheckInPeople
+parentId: fld_86513156fc3c441f93999c911aaebd69
+modified: 1651550562551
+created: 1651471957384
+url: "{{ _.url2 }}/getPlans"
+name: getPlans
 description: ""
 method: GET
 body: {}
@@ -12,10 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  disabled: false
-  token: "{{token}}"
-  prefix: ""
-metaSortKey: -1646825233497
+  token: "{{ _.token }}"
+metaSortKey: -1651471957384
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

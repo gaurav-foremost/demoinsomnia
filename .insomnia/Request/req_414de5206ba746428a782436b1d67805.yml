@@ -1,10 +1,10 @@
-_id: req_0df0500ca40543d08bfe75728ad2e33b
+_id: req_414de5206ba746428a782436b1d67805
 type: Request
-parentId: fld_4d556cc5f3e94fb9918f979bc97bd4c5
-modified: 1650262137125
-created: 1646825233497
-url: "{{ _.url2 }}/getAllCheckInPeople"
-name: getAllCheckInPeople
+parentId: wrk_3cf46625aa1f4e01987b6445f03a36f3
+modified: 1650014513442
+created: 1650014493618
+url: "{{ _.url2 }}/hangoutPlanCron"
+name: hangoutPlanCron
 description: ""
 method: GET
 body: {}
@@ -12,10 +12,8 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  disabled: false
-  token: "{{token}}"
-  prefix: ""
-metaSortKey: -1646825233497
+  token: "{{ _.token }}"
+metaSortKey: -1650014493618
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

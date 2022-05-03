@@ -1,9 +1,9 @@
 _id: req_07a7b334aa2143d3a643e9173eee5455
 type: Request
 parentId: fld_86513156fc3c441f93999c911aaebd69
-modified: 1649938265679
+modified: 1651471938955
 created: 1649937682833
-url: "{{ _.url }}/intrestedHangoutPlan"
+url: "{{ _.url2 }}/intrestedHangoutPlan"
 name: intrestedHangoutPlan
 description: ""
 method: POST
@@ -12,7 +12,7 @@ body:
   params:
     - id: pair_ec6b6edca4d7469b878af5214ef8c197
       name: hangout_plan_id
-      value: "2"
+      value: "11"
       description: ""
 parameters: []
 headers:
